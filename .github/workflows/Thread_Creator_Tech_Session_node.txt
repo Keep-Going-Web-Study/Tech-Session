@@ -1,0 +1,32 @@
+name: Run Discord Bot
+
+on:
+  schedule:
+    - cron: "50 1 * * *"
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Environment Variables
+        run: |
+          echo "TECH_SESSION_BOT_TOKEN=${{ secrets.TECH_SESSION_BOT_TOKEN }}" > .env
+          echo "DISCORD_CHANNEL_ID=${{ secrets.DISCORD_CHANNEL_ID_Tech_Session }}" >> .env
+          cat .env # .env 파일 내용 확인
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check .env file
+        run: cat .env
+
+      - name: Run Discord Bot
+        run: node techSessionBot.js # GitHub 레포지토리의 루트 디렉토리에서의 상대 경로를 사용
