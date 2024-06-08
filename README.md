@@ -20,4 +20,4 @@
 
 | Domain | Presenter | Date | Title | Presentation Content | Reference Link |
 | --- | --- | --- | --- | --- | --- |
-| | | | | | |
+| BE | 김주영 | 2024.06.08 | Redis의 OOM과 memory 설정 | [Redis의 OOM(Out Of Memory)과 memory 설정](./content/2024_06_08/Redis의%20OOM과%20memory%20설정/)| https://kjy042386.tistory.com/539 |
