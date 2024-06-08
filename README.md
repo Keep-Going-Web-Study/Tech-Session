@@ -20,4 +20,4 @@
 
 | Domain | Presenter | Date | Title | Presentation Content | Reference Link |
 | --- | --- | --- | --- | --- | --- |
-| | | | | | |
+| FE |박효빈 |2024/06/08 |페이지이동 |페이지이동 |https://simple-relish-748.notion.site/JavaScript-HTML-React-d2d90bd92f71444fbff2bde0620f712f?pvs=4 |
