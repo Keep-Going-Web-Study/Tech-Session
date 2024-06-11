@@ -1,0 +1,24 @@
+name: Tech Session Reminder
+
+on:
+  schedule:
+    - cron: "0 11 * * 6" # 매주 토요일 20:00 (UTC 기준으로 11:00 AM)
+  workflow_dispatch:
+
+jobs:
+  send_message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check environment variables
+        run: |
+          echo "DISCORD_CHANNEL_ID_TECH_SESSION=${{ secrets.DISCORD_CHANNEL_ID_TECH_SESSION }}"
+          echo "DISCORD_TECH_SESSION_REMINDER_BOT_TOKEN=${{ secrets.TECH_SESSION_REMINDER_BOT_TOKEN }}"
+
+      - name: Notify Tech Session Start
+        run: |
+          RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+          -H "Content-Type: application/json" \
+          -H "Authorization: Bot ${{ secrets.TECH_SESSION_REMINDER_BOT_TOKEN }}" \
+          -d "{\"content\": \"오늘 오후 9시에는 기술세션이 있습니다. 많은 참여바랍니다.\"}" \
+          https://discord.com/api/v10/channels/${{ secrets.DISCORD_CHANNEL_ID_TECH_SESSION }}/messages)
+          echo "Response: $RESPONSE"
