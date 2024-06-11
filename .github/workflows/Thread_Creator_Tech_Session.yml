@@ -12,7 +12,7 @@ jobs:
       - name: Create Tech Session Thread
         run: |
           thread_name="Topic $(date -d '+7 days' +'%Y-%m-%d')"
-          response=$(curl -s -w "\n%{http_code}" -H "Authorization: Bot ${{ secrets.TECH_SESSION_BOT_TOKEN }}" \
+          response=$(curl -s -w "\n%{http_code}" -H "Authorization: Bot ${{ secrets.TECH_SESSION_THREAD_BOT_TOKEN }}" \
                            -H "Content-Type: application/json" \
                            -X POST \
                            -d '{
@@ -20,7 +20,7 @@ jobs:
                                  "type": 10,
                                  "auto_archive_duration": 10080
                                }' \
-                           https://discord.com/api/v10/channels/${{ secrets.DISCORD_CHANNEL_ID_Tech_Session }}/threads)
+                           https://discord.com/api/v10/channels/${{ secrets.DISCORD_CHANNEL_ID_TECH_SESSION }}/threads)
           http_body=$(echo "$response" | sed '$d')
           http_code=$(echo "$response" | tail -n1)
           echo "HTTP Response Body: $http_body"
