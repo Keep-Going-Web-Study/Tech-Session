@@ -19,6 +19,6 @@ jobs:
           RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
           -H "Content-Type: application/json" \
           -H "Authorization: Bot ${{ secrets.TECH_SESSION_REMINDER_BOT_TOKEN }}" \
-          -d "{\"content\": \"오늘 오후 9시에는 기술세션이 있습니다. 많은 참여바랍니다.\"}" \
+          -d "{\"content\": \":robot: 오늘 오후 9시에는 기술세션이 있습니다. 많은 참여바랍니다.\"}" \
           https://discord.com/api/v10/channels/${{ secrets.DISCORD_CHANNEL_ID_TECH_SESSION }}/messages)
           echo "Response: $RESPONSE"
