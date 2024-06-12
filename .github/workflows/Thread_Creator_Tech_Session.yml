@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Create Tech Session Thread
         run: |
-          thread_name="Topic $(date -d '+7 days' +'%Y-%m-%d')"
+          thread_name=":thread: Topic $(date -d '+7 days' +'%Y-%m-%d')"
           response=$(curl -s -w "\n%{http_code}" -H "Authorization: Bot ${{ secrets.TECH_SESSION_THREAD_BOT_TOKEN }}" \
                            -H "Content-Type: application/json" \
                            -X POST \
