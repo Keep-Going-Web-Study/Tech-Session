@@ -18,7 +18,7 @@
 
 ## 발표 정리
 
-| Domain | Presenter | Date       | Title                     | Presentation Content                                                                              | Reference Link                                                     |
-| ------ | --------- | ---------- | ------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| BE     | 김주영    | 2024.06.08 | Redis의 OOM과 memory 설정 | [Redis의 OOM(Out Of Memory)과 memory 설정](./content/2024_06_08/Redis의%20OOM과%20memory%20설정/) | https://kjy042386.tistory.com/539                                  |
-| FE     | 송시은    | 2024.06.08 | 모듈화                    | [모듈화](./content/2024_06_08/모듈화/)                                                            | https://sienna-planet.notion.site/746b3cbe45424d15b3c32f42e6be9dda |
+| Domain | Presenter | Date       | Title                     | Presentation Content                                                                              | Reference Link                    |
+| ------ | --------- | ---------- | ------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------- |
+| BE     | 김주영    | 2024.06.08 | Redis의 OOM과 memory 설정 | [Redis의 OOM(Out Of Memory)과 memory 설정](./content/2024_06_08/Redis의%20OOM과%20memory%20설정/) | https://kjy042386.tistory.com/539 |
+| FE     | 송시은    | 2024.06.08 | 모듈화                    | [모듈화](./content/2024_06_08/모듈화/)                                                            |                                   |
