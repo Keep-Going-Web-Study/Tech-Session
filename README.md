@@ -18,13 +18,13 @@
 
 ## 발표 정리
 
-| Domain | Presenter | Date       | Title                     | Presentation Content                                                                              | Reference Link                                                                                     |
-| ------ | --------- | ---------- | ------------------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| BE     | 김주영    | 2024.06.08 | Redis의 OOM과 memory 설정 | [Redis의 OOM(Out Of Memory)과 memory 설정](./content/2024_06_08/Redis의%20OOM과%20memory%20설정/) | https://kjy042386.tistory.com/539                                                                  |
-| FE     | 송시은    | 2024.06.08 | 모듈화                    | [모듈화](./content/2024_06_08/모듈화/)                                                            | https://sienna-planet.notion.site/746b3cbe45424d15b3c32f42e6be9dda |                                                                                                 |
-| FE     | 박효빈    | 2024.06.08 | 페이지이동                | [페이지이동](./content/2024_06_08/페이지이동)                                                     | https://simple-relish-748.notion.site/JavaScript-HTML-React-d2d90bd92f71444fbff2bde0620f712f?pvs=4 |
-| FE     | 송시은    | 2024.06.15 | 브라우저 저장소 + 쿠키    | [브라우저 저장소 + 쿠키](./content/2024_06_15/브라우저%20저장소%20+%20쿠키/)                      | https://sienna-planet.notion.site/1fa3fc63d5e54776bcc8dd7c90252d39 |
-| BE     | 김주영    | 2024.06.15 | RabbitMQ-안전하게 메시지를 전송하기위한 설정 | [RabbitMQ-안전하게 메시지를 전송하기위한 설정](./content/2024_06_15/RabbitMQ-안전하게%20메시지를%20전송하기위한%20설정) | https://kjy042386.tistory.com/544 <br> https://kjy042386.tistory.com/545 <br> https://kjy042386.tistory.com/546 <br> https://kjy042386.tistory.com/547                                  |
-| FE     | 송시은    | 2024.06.22 | HTTP vs HTTPS             | [HTTP vs HTTPS](./content/2024_06_22/HTTP%20vs%20HTTPS/)                                          | https://sienna-planet.notion.site/HTTP-vs-HTTPS-330d3abff50d466ba9aa8e35769f8642 |
-| FE     | 박효빈    | 2024.06.22 | RESTful(REST) API | [RESTful(REST) API](./content/2024_06_22/RESTful(REST)%20API.pdf) | https://simple-relish-748.notion.site/RESTful-REST-API-02cb23ac3b6e421db36f89c98b67b5e8?pvs=4 |
-| BE     | 김주영    | 2024.07.06 | 테스트 코드 커버리지와 측정 | [ JaCoCo - 코드 커버리지 측정](./content/2024_07_06/테스트%20코드%20커버리지와%20측정/JaCoCo%20-%20코드%20커버리지%20측정.pdf) | https://kjy042386.tistory.com/550                                  |
+| Domain | Presenter | Date       | Title                     | Presentation Content                                                                              |
+| ------ | --------- |  ------------------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| BE     | 김주영    | 2024.06.08 | Redis의 OOM과 memory 설정 | [Redis의 OOM(Out Of Memory)과 memory 설정](./content/2024_06_08/Redis의%20OOM과%20memory%20설정/) |
+| FE     | 송시은    | 2024.06.08 | 모듈화                    | [모듈화](./content/2024_06_08/모듈화/)                                                            |                                                                                             |
+| FE     | 박효빈    | 2024.06.08 | 페이지이동                | [페이지이동](./content/2024_06_08/페이지이동)                                                     |
+| FE     | 송시은    | 2024.06.15 | 브라우저 저장소 + 쿠키    | [브라우저 저장소 + 쿠키](./content/2024_06_15/브라우저%20저장소%20+%20쿠키/)                      |
+| BE     | 김주영    | 2024.06.15 | RabbitMQ-안전하게 메시지를 전송하기위한 설정 | [RabbitMQ-안전하게 메시지를 전송하기위한 설정](./content/2024_06_15/RabbitMQ-안전하게%20메시지를%20전송하기위한%20설정) |
+| FE     | 송시은    | 2024.06.22 | HTTP vs HTTPS             | [HTTP vs HTTPS](./content/2024_06_22/HTTP%20vs%20HTTPS/)                                          |
+| FE     | 박효빈    | 2024.06.22 | RESTful(REST) API | [RESTful(REST) API](./content/2024_06_22/RESTful(REST)%20API.pdf) |
+| BE     | 김주영    | 2024.07.06 | 테스트 코드 커버리지와 측정 | [ JaCoCo - 코드 커버리지 측정](./content/2024_07_06/테스트%20코드%20커버리지와%20측정/JaCoCo%20-%20코드%20커버리지%20측정.pdf) |
